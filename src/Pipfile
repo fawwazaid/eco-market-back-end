@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-cors = "*"
+flask-jwt-extended = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+bcrypt = "*"
+python-dotenv = "*"
+flask-login = "*"
+blinker = "*"
+certifi = "*"
+charset-normalizer = "*"
+click = "*"
+docopt = "*"
+idna = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+mysql-connector-python = "*"
+requests = "*"
+sqlalchemy = "*"
+typing-extensions = "*"
+urllib3 = "*"
+werkzeug = "*"
+yarg = "*"
+pytest = "*"
+coverage = "*"
+flasgger = "*"
+gunicorn = "*"
+waitress = "*"
+colorama = "*"
+
+[dev-packages]
+
+
+[requires]
+python_version = "3.12"
